@@ -1,0 +1,69 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f9b0f, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f9b0f, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-decoration: none;
+}
+
+header{
+  padding: 15px;
+  background: rgba(0, 0, 0 ,0.75);
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+section{
+    margin-top: 15px;
+}
+
+a{
+  color: lightgrey;
+}
+
+a:hover{
+  color: green;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.divOne{
+  background: rgba(28, 146, 210, 0.5);
+  margin: auto;
+  max width: 60%;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.divTwo{
+  background: rgba(28, 146, 210, 0.5);
+  margin: auto;
+  max width: 60%;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.gitdiv{
+  background: rgba(28, 146, 210, 0.5);
+  margin: auto;
+  max width: 60%;
+  color: white;
+}
+
+footer{
+  text-align: center;
+  background: grey;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
